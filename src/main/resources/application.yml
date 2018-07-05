@@ -1,0 +1,26 @@
+server:
+  servlet:
+    context-path: /energyGridBlockchain
+  port: 8090
+grid:
+  host: http://127.0.0.1:8101
+  password: pass1
+  account: E:\Universitate\LICENTA\Geth-Nodes\node1\keystore\UTC--2018-05-10T22-12-02.552048400Z--2874bae574d4ca0a978373d2d8bcf5b0191ef221
+  consumerAccounts:
+    - E:\Universitate\LICENTA\Geth-Nodes\node1\keystore\UTC--2018-05-10T22-13-31.298308400Z--915b3382092e9dcda8154b977680cc596ae40d71
+    - E:\Universitate\LICENTA\Geth-Nodes\node1\keystore\UTC--2018-05-10T22-13-45.085206800Z--dbd5c2d92d8a71757589aed33002983443129763
+    - E:\Universitate\LICENTA\Geth-Nodes\node1\keystore\UTC--2018-05-16T20-45-27.540009900Z--0e8e34b0a86a0ca1f9976106160ee42e8c0a7881
+    - E:\Universitate\LICENTA\Geth-Nodes\node1\keystore\UTC--2018-05-16T20-49-01.568397300Z--a4315aad810631f17ae05d625f04ffe6f6c42b65
+  consumerAccountsAddress:
+    - "0x915b3382092e9dcda8154b977680cc596ae40d71"
+    - "0xdbd5c2d92d8a71757589aed33002983443129763"
+    - "0x0e8e34b0a86a0ca1f9976106160ee42e8c0a7881"
+    - "0xa4315aad810631f17ae05d625f04ffe6f6c42b65"
+  producerAccounts:
+    - E:\Universitate\LICENTA\Geth-Nodes\node1\keystore\UTC--2018-05-16T20-49-12.869892400Z--92b81f280578e9306769d61f77f31e38873a8e4f
+    - E:\Universitate\LICENTA\Geth-Nodes\node1\keystore\UTC--2018-05-16T20-49-23.934187000Z--15da89a39ae17e556cb43e794360ab8cb140892f
+    - E:\Universitate\LICENTA\Geth-Nodes\node1\keystore\UTC--2018-05-16T20-49-33.535897300Z--727f1562fec167f5e455a137f5b8546e37da0c38
+  producerAccountsAddress:
+    - "0x92b81f280578e9306769d61f77f31e38873a8e4f"
+    - "0x15da89a39ae17e556cb43e794360ab8cb140892f"
+    - "0x727f1562fec167f5e455a137f5b8546e37da0c38"
